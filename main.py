@@ -3,12 +3,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
-with col1:
-    st.image("images/my_photo.png")
-
-with col2:
-    st.title("Emile Muller")
-    content = """
+content_intro = """
     Lorem ipsum odor amet, consectetuer adipiscing elit. Viverra arcu tristique
     magna aenean taciti. Tellus nunc gravida, curabitur metus tempor 
     himenaeos! Enim duis leo dolor senectus nullam dolor fusce consectetur. 
@@ -25,4 +20,17 @@ with col2:
     netus semper tempor. Vulputate tempus feugiat massa eleifend libero 
     ridiculus. Euismod dictum ullamcorper enim tellus ex netus.
     """
-    st.info(content)
+
+contact_message = """
+Hieronder vindt u enkele van de apps die ik heb ontwikkeld. Neem gerust 
+contact met mij op!
+"""
+
+with col1:
+    st.image("images/my_photo.png")
+
+with col2:
+    st.title("Emile Muller")
+    st.info(content_intro)
+
+st.write(contact_message)
