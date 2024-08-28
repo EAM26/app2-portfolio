@@ -19,3 +19,5 @@ Student Management System;A desktop PyQt6 GUI app for managing university studen
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://pythonhow.com;18.png
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://pythonhow.com;19.png
 Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png
+Beehive Frontend;A React JS frontend for employee planning;https://github.com/EAM26/the_beehive_frontend;21.png
+Beehive Backend ;A Spring Java backend application for planning employees in teams;https://github.com/EAM26/beehive-backend;22.png
